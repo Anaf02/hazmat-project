@@ -1,0 +1,12 @@
+name: hazmat-env
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - ipython=8.6
+  - jupyter=1.0
+  - pip:
+      - -r requirements.txt
