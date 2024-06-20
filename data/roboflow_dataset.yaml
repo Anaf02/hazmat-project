@@ -1,0 +1,30 @@
+train: roboflow/train/images
+val: roboflow/valid/images
+test: roboflow/test/images
+
+nc: 15
+names:
+  [
+    "ERIrotation",
+    "Placards",
+    "corrosive",
+    "dangerous-when-wet",
+    "explosive",
+    "flammable",
+    "flammable-solid",
+    "infectious-substance",
+    "license plate",
+    "non-flammable-gas",
+    "organic-peroxide",
+    "oxidizer",
+    "poison",
+    "radioactive",
+    "spontaneously-combustible",
+  ]
+
+roboflow:
+  workspace: digital-erg
+  project: hazmat-placards
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/digital-erg/hazmat-placards/dataset/4
