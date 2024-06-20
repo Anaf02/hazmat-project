@@ -1,12 +1,11 @@
 numpy
 pandas
 matplotlib
-ultralytics
+tensorflow
+keras
+tf-keras
+types-tensorflow
+scipyultralytics
 scikit-learn
 split-folders
-
-ultralytics[explorer]
-
---upgrade pip setuptools wheel
---use-pep517 duckdb
 
