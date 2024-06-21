@@ -6,3 +6,4 @@ keras
 tf-keras
 types-tensorflow
 scipy
+ultralytics
