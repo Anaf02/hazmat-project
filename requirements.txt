@@ -5,7 +5,5 @@ tensorflow
 keras
 tf-keras
 types-tensorflow
-scipyultralytics
-scikit-learn
-split-folders
-
+scipy
+ultralytics
